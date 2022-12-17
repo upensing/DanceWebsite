@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Razz Dance Academy
+    block scripts
+    block style
+
+  body
+    nav#navbar
+        ul
+           div#logo 
+               img(src="/static/img/logo.png") 
+               |  RDA
+           li #[a(href="/") Home] 
+           li #[a(href="/aboutUs") About] 
+           li #[a(href="/services") Services]                  
+           li #[a(href="/classInfo") Class Info]                 
+           li #[a(href="/contact") Contact US]
+               
+    block content 
+    footer#footer 
+       | Copyright @ 2022 RazzdanceAcademy.com | All right reserved   
+    
